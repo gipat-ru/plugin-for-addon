@@ -1,0 +1,42 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30309.148
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "plugin", "src\plugin\plugin.vcxproj", "{777F615B-9A92-46D7-B4EB-40E11323F5B6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Headers", "Headers", "{47DBCE1D-6F20-4A2A-BD17-D0D6143E5019}"
+	ProjectSection(SolutionItems) = preProject
+		src\VersionInfo.h = src\VersionInfo.h
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{777F615B-9A92-46D7-B4EB-40E11323F5B6}.Debug|Win32.ActiveCfg = Debug|Win32
+		{777F615B-9A92-46D7-B4EB-40E11323F5B6}.Debug|Win32.Build.0 = Debug|Win32
+		{777F615B-9A92-46D7-B4EB-40E11323F5B6}.Release|Win32.ActiveCfg = Release|Win32
+		{777F615B-9A92-46D7-B4EB-40E11323F5B6}.Release|Win32.Build.0 = Release|Win32
+		{7438C47A-9546-4826-A669-4EAD1189C232}.Debug|Win32.ActiveCfg = Debug|Win32
+		{7438C47A-9546-4826-A669-4EAD1189C232}.Debug|Win32.Build.0 = Debug|Win32
+		{7438C47A-9546-4826-A669-4EAD1189C232}.Release|Win32.ActiveCfg = Release|Win32
+		{7438C47A-9546-4826-A669-4EAD1189C232}.Release|Win32.Build.0 = Release|Win32
+		{20740A79-731F-4C7D-84B6-0BC6B1DAEAEB}.Debug|Win32.ActiveCfg = Debug|Win32
+		{20740A79-731F-4C7D-84B6-0BC6B1DAEAEB}.Debug|Win32.Build.0 = Debug|Win32
+		{20740A79-731F-4C7D-84B6-0BC6B1DAEAEB}.Release|Win32.ActiveCfg = Release|Win32
+		{20740A79-731F-4C7D-84B6-0BC6B1DAEAEB}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {16A626D2-4BDF-4B42-B30F-D4D318D8FCA1}
+	EndGlobalSection
+	GlobalSection(DPCodeReviewSolutionGUID) = preSolution
+		DPCodeReviewSolutionGUID = {00000000-0000-0000-0000-000000000000}
+	EndGlobalSection
+	GlobalSection(DevPartner Solution Properties) = postSolution
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{5290bef4-b729-4841-a4f4-7de5c00de85f}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{b43fb0b0-9802-4623-8220-8fa197981942}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{d29fff77-f757-4e87-8b5a-59f592d031f1}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe</Extensions>
+    </Filter>
+    <Filter Include="Shared Files">
+      <UniqueIdentifier>{012a65b2-800d-4157-a623-2979adfb5feb}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Shared\Common.cpp">
+      <Filter>Shared Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Shared\Hook.cpp">
+      <Filter>Shared Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Shared\hde\hde32.c">
+      <Filter>Shared Files</Filter>
+    </ClCompile>
+    <ClCompile Include="patches.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared\Common.h">
+      <Filter>Shared Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared\Hook.h">
+      <Filter>Shared Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared\Patcher.h">
+      <Filter>Shared Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared\hde\hde32.h">
+      <Filter>Shared Files</Filter>
+    </ClInclude>
+    <ClInclude Include="patches.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="config.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="plugin.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="plugin.def">
+      <Filter>Source Files</Filter>
+    </None>
+  </ItemGroup>
+</Project>

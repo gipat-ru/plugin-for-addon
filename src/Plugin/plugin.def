@@ -1,0 +1,7 @@
+LIBRARY plugin
+
+EXPORTS
+EntryBeforePatch
+EntryAfterPatch
+GetPluginVersion
+GetPluginName
